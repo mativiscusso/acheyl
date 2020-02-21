@@ -21,7 +21,7 @@
 <body>
         <!-- navigation menu    -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href=""><img id="logo" src="../img/acheyl_logo2.png" alt=""></a>
+            <a class="navbar-brand" href="/"><img id="logo" src="../img/acheyl_logo2.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60"
@@ -46,13 +46,13 @@
                         <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="index#banner1">FRANQUICIAS</a>
+                        <a class="nav-link" href="/index#banner1">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="rutas/faqs.php">FAQs</a>
+                        <a class="nav-link" href="faqs.php">FAQs</a>
                     </li>
                     <li class="nav-item font-weight-bold">
-                        <a class="nav-link" href="index#contacto">CONTACTO</a>
+                        <a class="nav-link" href="/index#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

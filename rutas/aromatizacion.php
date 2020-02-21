@@ -4,13 +4,13 @@ require_once('header.php');
 
 
     <div class="container my-5">
-        <div class="card mb-3" style="max-width: 100%;">
+        <div id="cardAroma"class="card mb-3" style="max-width: 100%;">
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <img id="imgAromatizacion"src="../img/servicios.png" class="card-img" alt="...">
                 </div>
                 <div class="col-md-8" style="display:flex">
-                    <div class="card-body">
+                    <div id="bodyCardAroma"class="card-body">
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, et!</span>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, et!</span>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, et!</span>

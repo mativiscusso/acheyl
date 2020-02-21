@@ -241,11 +241,12 @@ img {
 }
 
 .card {
+  margin-top: 5%;
   position: relative;
   background: #0A0A47;
   width: 100%;
   height: 80vh;
-  border-radius: 6px;
+  border-radius: 3rem;
   padding: 2rem;
   color: white;
   overflow: hidden;

@@ -19,8 +19,9 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href=""><img id="logo" src="img/acheyl_logo2.png" alt=""></a>
+        <!-- navigation menu    -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href=""><img id="logo" src="../img/acheyl_logo2.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60"
@@ -35,23 +36,23 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">QUIENES SOMOS</a>
+                    <li class="nav-item font-weight-bold ">
+                        <a class="nav-link text-dark" href="#">QUIENES SOMOS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICIOS</a>
+                    <li class="nav-item font-weight-bold ">
+                        <a class="nav-link" href="rutas/aromatizacion.php">AROMATIZACION</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUCTOS</a>
+                    <li class="nav-item font-weight-bold ">
+                        <a class="nav-link" href="rutas/productos.php">PRODUCTOS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FRANQUICIAS</a>
+                    <li class="nav-item font-weight-bold ">
+                        <a class="nav-link" href="#banner1">FRANQUICIAS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
+                    <li class="nav-item font-weight-bold ">
+                        <a class="nav-link" href="rutas/faqs.php">FAQs</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                    <li class="nav-item font-weight-bold">
+                        <a class="nav-link" href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

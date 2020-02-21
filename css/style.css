@@ -46,6 +46,9 @@ a.nav-link {
 li#dropdown:hover .dropdown-menu {
   display: block;
 }
+a.navbar-brand {
+  width: 70%;
+}
 #logo {
     width: 50%;
 }
@@ -54,9 +57,9 @@ li#dropdown:hover .dropdown-menu {
 /* HEADER */
 header {
   background-image: url('../img/fondo_header.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 95vh;
+  min-height: 110vh;
 }
 #contenedor {
     width: 100%;
@@ -65,10 +68,10 @@ header {
 div#portada1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-image: url(../img/productos.png);
     /* Set a specific height */
-    min-height: 60vh;
+    min-height: 30vh;
     /* Create the parallax scrolling effect */
     /* background-attachment: fixed; */
 
@@ -80,10 +83,10 @@ div#portada2 {
     margin-top: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url(../img/productos.png);
+    align-items: flex-end;
+    background-image: url(../img/servicios.png);
     /* Set a specific height */
-    min-height: 60vh;
+    min-height: 30vh;
     /* Create the parallax scrolling effect */
     /* background-attachment: fixed; */
     background-position: center;
@@ -99,17 +102,21 @@ div#portadas {
 
 /* FRANQUICIAS */
 #franquicias {
-  background-image: url('../img/fondo_header.jpg');
+  background-image: url('../img/banner_mobile.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 3rem;
   width: 95%;
-  min-height: 40vh;
+  min-height: 65vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 #banner1 h3 {
+  margin-top: 15%;
+  text-shadow: 2px 2px 2px black;
   color: white;
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 /*****************/
 
@@ -200,6 +207,8 @@ iframe {
 
 /* FOOTER */
 #infoFooter {
+  font-size: 0.9rem;
+  text-align: center;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -209,6 +218,17 @@ iframe {
 }
 footer {
     background-color: gray;
+}
+#contacto {
+  padding: 3%;
+}
+.marea {
+  margin-top: 5%;
+  width: 40%;
+  transition: all 300ms;
+}
+.marea:hover {
+  filter: invert(0.8);
 }
 /*****************************/
 
@@ -223,12 +243,12 @@ img {
 
 .card {
   position: relative;
-  background: #333;
-  width: 400px;
-  height: 85vh;
+  background: rgba(10, 10, 71, 0.466);
+  width: 100%;
+  height: 80vh;
   border-radius: 6px;
   padding: 2rem;
-  color: #aaa;
+  color: white;
   overflow: hidden;
 }
 .card__image-container {
@@ -243,8 +263,9 @@ img {
   animation: ImageFadeIn .8s 1.4s forwards;
 }
 .card__title {
+  font-size: 1.5rem;
   color: white;
-  margin-top: 0;
+  margin-top: 15%;
   font-weight: 800;
   letter-spacing: 0.01em;
 }
@@ -256,7 +277,7 @@ img {
 .card__svg {
   position: absolute;
   left: 0;
-  top: 230px;
+  top: 30%;
 }
 
 @keyframes LineFadeIn {
@@ -304,24 +325,75 @@ img {
 }
 /**************************************/
 
+/*** AROMATIZACION ***/
+
+.card {
+  height: 80vh;
+  color: #000;
+  background-color: transparent;
+  border: transparent;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
 @media(min-width: 780px) {
 /*MENU ESCRITORIO*/
 nav {
   background-color: transparent;
 }
-.navbar-brand {
+a.navbar-brand {
   width: 15%;
 }
 
+#logo {
+    width: 100%;
+}
 /*FIN MENU*/
-
-    #logo {
-        width: 100%;
-    }
-    div#portada1 {
+header {
+  height: 125vh;
+}
+div#portada1 {
+  background-size: cover;
+      align-items: baseline;
+      min-height: 60vh;
       margin-bottom: 5%;
     }
   div#portada2 {
+    background-size: cover;
+    align-items: baseline;
+    min-height: 60vh;
     margin-bottom: 5%;
+  }
+  .tituloIndex {
+    font-size: 3rem;
+  }
+  #franquicias {
+    margin-top: 10%;
+    background-size: cover;
+    height: 50vh;
+    width: 90%;
+    background-image: url('../img/banner.jpg');
+  }
+  #banner1 h3{
+    margin-top: 2%;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px black;
+  } 
+  #infoFooter {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .marea {
+    width: 30%;
+  }
+  .card {
+    height: 50vh;
+  }
+  #imgAromatizacion {
+    width: 90%;
   }
 }

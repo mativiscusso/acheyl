@@ -40,19 +40,19 @@
                         <a class="nav-link text-dark" href="#">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="rutas/aromatizacion.php">AROMATIZACION</a>
+                        <a class="nav-link" href="aromatizacion.php">AROMATIZACION</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="rutas/productos.php">PRODUCTOS</a>
+                        <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="#banner1">FRANQUICIAS</a>
+                        <a class="nav-link" href="index#banner1">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="rutas/faqs.php">FAQs</a>
                     </li>
                     <li class="nav-item font-weight-bold">
-                        <a class="nav-link" href="#contacto">CONTACTO</a>
+                        <a class="nav-link" href="index#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

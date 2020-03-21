@@ -1128,11 +1128,11 @@ div.swiper-button-next {
 
 /*** AROMATIZACION ***/
 
-.sliderAroma {
-  height: 40vh;
-  width: 70%;
-  margin: auto;
-  overflow: hidden;
+#carouselAroma {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
 }
 
 #textoAroma {

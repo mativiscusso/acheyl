@@ -48,4 +48,5 @@ if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["mensaje"])
 
 <?php
 require_once('footer.php');
+require_once('../whatsapp.php');
 ?>

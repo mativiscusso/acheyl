@@ -1,10 +1,10 @@
 <?php
 require_once('header.php');
 ?>
+  <h1 class="text-center">Preguntas Frecuentes</h1>
 <div id="faqs" class="container">
-  <h1>Preguntas Frecuentes</h1>
   <div class="accordion" id="accordionExample">
-    <div class="card">
+    <div class="cards">
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
           <button id="color" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -19,7 +19,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="cards">
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
           <button id="color" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -33,7 +33,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="cards">
       <div class="card-header" id="headingThree">
         <h2 class="mb-0">
           <button id="color" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -47,7 +47,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="cards">
       <div class="card-header" id="headingFour">
         <h2 class="mb-0">
           <button id="color" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -67,4 +67,5 @@ require_once('header.php');
 
 <?php
 require_once('footer.php');
+require_once('../whatsapp.php');
 ?>

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <title>Ache & L</title>
 </head>
 
@@ -37,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link text-dark" href="#">QUIENES SOMOS</a>
+                        <a class="nav-link text-dark" href="/index#quienes">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="aromatizacion.php">AROMATIZACION</a>
@@ -46,7 +47,7 @@
                         <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="/index#banner1">FRANQUICIAS</a>
+                        <a class="nav-link" href="/index#contacto">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="faqs.php">FAQs</a>

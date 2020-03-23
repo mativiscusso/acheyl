@@ -2,9 +2,9 @@ function stickyElement(e) {
   var navbar = document.querySelector(".navbar.navbar-expand-lg.navbar-light");
   var scrollValue = window.scrollY;
 
-  if (scrollValue > 200) {
+  if (scrollValue > 250) {
     navbar.classList.add("is-fixed");
-  } else if (scrollValue < 200) {
+  } else if (scrollValue < 30) {
     navbar.classList.remove("is-fixed");
   }
 }

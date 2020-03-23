@@ -47,7 +47,7 @@
                         <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="/index#contacto">FRANQUICIAS</a>
+                        <a class="nav-link" href="/index#franquicias">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="faqs.php">FAQs</a>

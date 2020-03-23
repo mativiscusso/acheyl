@@ -31,7 +31,9 @@ require_once('header.php');
             <li>Amplia variedad de fragancias</li>
         </ul>
         <span id="spanAroma">“CON UN ABONO MENSUAL, MANTENÉ TUS AMBIENTES AROMATIZADOS LAS 24 HORAS”</span><br>
-        <button type="button" class="btn btn-dark my-5">QUIERO PROBARLO GRATIS POR 48hs</button>
+        <a href="https://wa.me/5493415996988?texto=Hola!,%20me%20interesa%20" target="_blank">
+        <button id="btnAroma" type="button" class="btn btn-dark my-5">PROBALO SIN CARGO</button>
+        </a>
     </div>
 </div>
 
@@ -81,7 +83,9 @@ require_once('header.php');
             </div>
         </div>
     </div>
-    <button type="button" class="btn btn-dark my-5">QUIERO CONTRATAR</button>
+    <a href="https://wa.me/5493415996988?texto=Hola!,%20me%20interesa%20" target="_blank">
+    <button type="button" class="btn btn-dark my-5"">QUIERO CONTRATAR</button>
+    </a>
 </div>
 
 

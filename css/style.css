@@ -1144,13 +1144,11 @@ div#banner2 {
 
 .slider::before,
 .slider::after {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(white),
-    to(rgba(255, 255, 255, 0))
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(white),
+      to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 300px;
@@ -1212,13 +1210,18 @@ footer {
 }
 
 .marea {
-  margin-top: 5%;
-  width: 40%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   transition: all 300ms;
 }
 
 .marea:hover {
   filter: invert(0.8);
+}
+
+#firma {
+  padding-bottom: 3%;
 }
 
 /*****************************/
@@ -1369,6 +1372,7 @@ div.swiper-button-next {
 /*****************************/
 
 @media (min-width: 780px) {
+
   /*MENU ESCRITORIO*/
   nav {
     background-color: transparent;
@@ -1431,7 +1435,7 @@ div.swiper-button-next {
   }
 
   .marea {
-    width: 30%;
+    width: 15%;
   }
 
   #cardAroma {

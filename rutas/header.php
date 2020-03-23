@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link text-dark" href="/index#quienes">QUIENES SOMOS</a>
+                        <a class="nav-link text-dark" href="/index#nosotros">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="aromatizacion.php">AROMATIZACION</a>
@@ -47,13 +47,13 @@
                         <a class="nav-link" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
-                        <a class="nav-link" href="/index#franquicias">FRANQUICIAS</a>
+                        <a class="nav-link" href="/index#franquicia">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item font-weight-bold ">
                         <a class="nav-link" href="faqs.php">FAQs</a>
                     </li>
                     <li class="nav-item font-weight-bold">
-                        <a class="nav-link" href="/index#contacto">CONTACTO</a>
+                        <a class="nav-link" href="/index#contact">CONTACTO</a>
                     </li>
                 </ul>
             </div>

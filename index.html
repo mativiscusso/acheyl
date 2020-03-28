@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+    </script>
 
     <title>Ache & L</title>
 </head>
@@ -29,7 +32,7 @@
     <header>
 
         <!-- navigation menu    -->
-        <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
+        <nav id="navigation" class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/"><img id="logo" src="img/acheyl_logo2.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +49,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#nosotros">QUIENES SOMOS</a>
+                        <a class="nav-link menu" data-scroll href="#nosotros">QUIENES
+                            SOMOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu" href="rutas/aromatizacion.php">AROMATIZACION</a>
@@ -55,13 +59,13 @@
                         <a class="nav-link menu" href="rutas/productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#franquicia">FRANQUICIAS</a>
+                        <a class="nav-link menu" data-scroll href="#franquicia">FRANQUICIAS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu" href="rutas/faqs.php">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="#contact">CONTACTO</a>
+                        <a class="nav-link menu" data-scroll href="#contact">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +85,6 @@
                         <h2 id="titulo2" class="tituloIndex">PRODUCTOS</h2><br>
                     </a>
                 </div>
-                <section id="franquicia"></section>
             </div>
         </div>
     </header>
@@ -103,11 +106,11 @@
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
+        <section id="franquicia"></section>
         <div id="franquicias" class="container-fluid text-center py-5 my-5">
             <div data-aos="flip-left" id="banner1">
                 <h3>FRANQUICIAS</h3>
                 <img src="img/acheyl_logo.png" alt="" class="w-25 my-5">
-                <section id="nosotros"></section>
                 <h4>COMENZA TU <b>NEGOCIO</b> CON EL RESPALDO</h4>
                 <h4>DE UNA <b>MARCA</b> DE <b>PRIMER NIVEL</b></h4>
                 <a href="#contacto" class="btnfranquicias">Me interesa</a>
@@ -125,6 +128,7 @@
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
+        <section id="nosotros"></section>
         <div data-aos="fade-in" id="quienes" class="container text-center">
             <h2>NOSOTROS</h2>
             Somos una empresa abocada a lograr un mejor nivel de vida para sus clientes,
@@ -189,13 +193,13 @@
     </div>
 
 
-    <section id="contact"></section>
 
     <div class="container-fluid my-5">
         <iframe data-aos="fade-in"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6694.551725227462!2d-60.651287999999994!3d-32.970123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7aba1d0be7589%3A0xe200d4450050d47c!2sPte.%20Roca%202921%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1585005726007!5m2!1ses!2sar"
             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
+    <section id="contact"></section>
 
     <footer>
         <div id="contacto">
@@ -218,38 +222,72 @@
                     </form>
                 </div>
                 <div id="infoFooter" class="col-12 col-md-3 py-5 px-3">
-                    <span>Presidente Roca 2921, S2000 Rosario, Santa Fe</span>
-                    <span>0810 444 0209 / 341 5 996988</span>
-                    <span>contacto@acheyl.com.ar</span>
-                    <span>Lunes a Viernes de 08hs a 17hs </span>
+                    <span>
+                        <ion-icon size="large" name="pin"></ion-icon>Presidente Roca 2921
+                    </span>
+                    <span>
+                        <ion-icon size="large" name="earth"></ion-icon>S2000 Rosario, Santa Fe
+                    </span>
+                    <span>
+                        <ion-icon size="large" name="call-sharp"></ion-icon>0810 444 0209 / 341 5 996988
+                    </span>
+                    <span>
+                        <ion-icon size="large" name="today-sharp"></ion-icon>Lunes a Viernes
+                    </span>
+                    <span>
+                        <ion-icon size="large" name="alarm"></ion-icon>08 hs a 17 hs
+                    </span>
 
                 </div>
                 <div class="col-12 col-md-3 py-5 px-3">
-                    <ul>
-                        <li>RED SOCIAL</li>
-                        <li>RED SOCIAL</li>
-                        <li>RED SOCIAL</li>
-                        <li>RED SOCIAL</li>
+                    <ul class="redes">
+                        <li>
+                            <ion-icon size="large" name="logo-facebook"></ion-icon><a
+                                href="https://www.facebook.com/acheylrosario">/acheylrosario</a>
+                        </li>
+                        <li>
+                            <ion-icon size="large" name="logo-instagram"></ion-icon><a
+                                href="https://www.instagram.com/acheylrosario/?hl=es-la">@acheylrosario</a>
+                        </li>
+                        <li>
+                            <ion-icon size="large" name="mail-open"></ion-icon><a href="">contacto@acheyl.com.ar</a>
+                        </li>
                     </ul>
                 </div>
             </div>
 
         </div>
-        <div id="firma">
-            <a href="http://www.somosmarea.com" target="_blank">
-                <img class="marea" src="img/marea.png" alt="">
-            </a>
-        </div>
+        <a id="posicionador" href="https://somosmarea.com">
+            <div class="marea">
+                <img src="img/logoMarea.png" alt="" id="left">
+                <div id="right">
+                    <span>MAREA</span>
+                    <span>Marketing Digital</span>
+                    <span>Desarrollo Web</span>
+                </div>
+            </div>
+        </a>
+        <button title="Back to top" class="scroll">
+            <ion-icon size="large" name="arrow-up-outline"></ion-icon>
+            TOP
+        </button>
     </footer>
 
 
+
+
+    <script src="js/top.js"></script>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 
-    <script src="js/navbar.js"></script>
+    <script>
+        const scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 500
+        });
+    </script>
 </body>
 
 </html>

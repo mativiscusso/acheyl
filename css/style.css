@@ -17,8 +17,17 @@ a:hover {
 }
 
 /* MENU */
-a.nav-link {
+a.nav-link.menu {
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+a.nav-link.menu:hover {
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
 }
 
 .ham {
@@ -1193,36 +1202,89 @@ iframe {
   font-size: 0.9rem;
   text-align: center;
   color: white;
-  text-transform: uppercase;
-  font-weight: bold;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
 }
 
 footer {
   box-shadow: 0px -3px 5px grey;
   background-color: #0a0a47;
+  padding-bottom: 5%;
 }
 
 #contacto {
   padding: 3%;
 }
 
-.marea {
+/***** LOGO MAREA FOOTER MOBILE *****/
+#posicionador {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 300ms;
+  justify-content: center;
+}
+
+.marea {
+  position: relative;
+  display: flex;
+  width: 15%;
+  height: 7vh;
+  background-color: #51D1F6;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3em;
+  transition: all 0.3s ease;
+}
+
+#left {
+  border-radius: 3em;
+  position: absolute;
+  text-align: center;
+  width: 75%;
+}
+
+#right {
+  position: absolute;
+  right: 5px;
+  font-family: Arial Bold, sans-serif;
+  font-weight: bold;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  color: #202346;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.marea:hover>#right {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+
+#right span:nth-child(2) {
+  font-size: 0.2em;
+}
+
+#right span:first-child {
+  font-size: 1em;
+}
+
+#right span:last-child {
+  font-size: 0.2em;
 }
 
 .marea:hover {
-  filter: invert(0.8);
+  width: 35%;
+  height: 7vh;
 }
 
-#firma {
-  padding-bottom: 3%;
+
+.marea:hover>#left {
+  left: 10px;
+  width: 33%;
 }
+
 
 /*****************************/
 
@@ -1371,6 +1433,47 @@ div.swiper-button-next {
 
 /*****************************/
 
+/***** BOTON TOP ********/
+.scroll {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 25px;
+  left: 10px;
+  opacity: 0.3;
+  background-color: #61D160;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  font-size: 1em;
+}
+
+.scroll:hover {
+  opacity: 1;
+}
+
+/*********************************/
+
+/******** REDES *******/
+.redes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.redes a {
+  color: white;
+  text-decoration: none;
+}
+
+ion-icon {
+  margin-right: 3%;
+  color: white;
+}
+
 @media (min-width: 780px) {
 
   /*MENU ESCRITORIO*/
@@ -1430,13 +1533,41 @@ div.swiper-button-next {
   }
 
   #infoFooter {
-    font-size: 1rem;
+    color: white;
+    font-size: 0.9rem;
     text-align: left;
   }
 
+  /**** LOGO MAREA FOOTER DESKTOP *****/
   .marea {
-    width: 15%;
+    width: 7%;
+    height: 15vh;
   }
+
+  .marea:hover {
+    width: 20%;
+    height: 15vh;
+  }
+
+
+  .marea:hover>#left {
+    left: 10px;
+    width: 30%;
+  }
+
+  #right span:nth-child(2) {
+    font-size: 0.8em;
+  }
+
+  #right span:first-child {
+    font-size: 2em;
+  }
+
+  #right span:last-child {
+    font-size: 0.8em;
+  }
+
+  /***********************/
 
   #cardAroma {
     height: 50vh;

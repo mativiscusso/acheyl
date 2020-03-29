@@ -141,38 +141,39 @@ header {
 }
 
 div#portada1 {
+  margin-top: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  background-image: url(../img/productos.png);
-  /* Set a specific height */
-  min-height: 40vh;
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed; */
+  flex-direction: column;
+}
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+#portada1 img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 60vw;
 }
 
 div#portada2 {
   margin-top: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  background-image: url(../img/servicios.png);
-  /* Set a specific height */
-  min-height: 40vh;
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  flex-direction: column;
+}
+
+#portada2 img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 60vw;
 }
 
 div#portadas {
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
 }
 
 /* FIN HEADER */
@@ -1482,18 +1483,14 @@ ion-icon {
     height: 125vh;
   }
 
-  div#portada1 {
-    background-size: cover;
-    align-items: baseline;
-    min-height: 68vh;
-    margin-bottom: 5%;
+  #portada1 img {
+    margin-top: 0%;
+    width: 25vw;
   }
 
-  div#portada2 {
-    background-size: cover;
-    align-items: baseline;
-    min-height: 68vh;
-    margin-bottom: 5%;
+  #portada2 img {
+    margin-top: 0%;
+    width: 25vw;
   }
 
   .tituloIndex {

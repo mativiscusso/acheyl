@@ -197,6 +197,9 @@ div#portadas {
 }
 
 /* FRANQUICIAS */
+#logoFranquicias {
+  width: 50%;
+}
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -1172,11 +1175,13 @@ div#banner2 {
 
 .slider::before,
 .slider::after {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(white),
-      to(rgba(255, 255, 255, 0)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(white),
+    to(rgba(255, 255, 255, 0))
+  );
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 300px;
@@ -1224,7 +1229,6 @@ iframe {
   color: white;
   display: flex;
   flex-direction: column;
-
 }
 
 footer {
@@ -1248,7 +1252,7 @@ footer {
   display: flex;
   width: 15%;
   height: 7vh;
-  background-color: #51D1F6;
+  background-color: #51d1f6;
   justify-content: center;
   align-items: center;
   border-radius: 3em;
@@ -1276,7 +1280,7 @@ footer {
   opacity: 0;
 }
 
-.marea:hover>#right {
+.marea:hover > #right {
   display: flex;
   flex-direction: column;
   opacity: 1;
@@ -1299,12 +1303,10 @@ footer {
   height: 7vh;
 }
 
-
-.marea:hover>#left {
+.marea:hover > #left {
   left: 10px;
   width: 33%;
 }
-
 
 /*** AROMATIZACION ***/
 
@@ -1427,7 +1429,7 @@ footer {
   bottom: 25px;
   left: 10px;
   opacity: 0.3;
-  background-color: #61D160;
+  background-color: #61d160;
   border-radius: 5px;
   border: none;
   align-items: center;
@@ -1463,7 +1465,6 @@ ion-icon {
 }
 
 @media (min-width: 780px) {
-
   /*MENU ESCRITORIO*/
   nav {
     background-color: transparent;
@@ -1538,8 +1539,7 @@ ion-icon {
     height: 15vh;
   }
 
-
-  .marea:hover>#left {
+  .marea:hover > #left {
     left: 10px;
     width: 30%;
   }
@@ -1637,5 +1637,8 @@ ion-icon {
 
   #containerCarouselProductos ol {
     margin-top: 6%;
+  }
+  #logoFranquicias {
+    width: 25%;
   }
 }

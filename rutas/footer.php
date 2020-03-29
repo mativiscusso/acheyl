@@ -2,7 +2,7 @@
     <div id="contacto">
         <div class="row">
             <div class="col-12 col-md-6">
-                <form class="py-5" method="POST" action="contacto">
+                <form method="POST" action="contacto">
                     <div class="form-group">
                         <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1"
                             placeholder="Nombre" required>
@@ -18,7 +18,7 @@
                     <button class="btn btn-outline-light" type="submit">Enviar</button>
                 </form>
             </div>
-            <div id="infoFooter" class="col-12 col-md-3 py-5 px-3">
+            <div id="infoFooter" class="col-12 col-md-3">
                     <span>
                         <ion-icon size="large" name="pin"></ion-icon>Presidente Roca 2921
                     </span>
@@ -36,7 +36,7 @@
                     </span>
 
                 </div>
-                <div class="col-12 col-md-3 py-5 px-3">
+                <div class="col-12 col-md-3">
                     <ul class="redes">
                         <li>
                             <ion-icon size="large" name="logo-facebook"></ion-icon><a
@@ -56,7 +56,7 @@
     </div>
     <a id="posicionador" href="https://somosmarea.com">
         <div class="marea">
-            <img src="img/logoMarea.png" alt="" id="left">
+            <img src="../img/logoMarea.png" alt="" id="left">
             <div id="right">
                 <span>MAREA</span>
                 <span>Marketing Digital</span>
@@ -66,10 +66,10 @@
     </a>
     <button title="Back to top" class="scroll">
         <ion-icon size="large" name="arrow-up-outline"></ion-icon>
-        TOP
     </button>
 </footer>
 <script src="../js/navbar.js"></script>
+<script src="../js/top.js"></script>
 </body>
 
 </html>

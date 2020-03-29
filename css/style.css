@@ -177,6 +177,24 @@ div#portadas {
 
 /* FIN HEADER */
 
+/* PRODUCTOS */
+#carouselProducto {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#carouselProducto div {
+  border: none;
+}
+
+#containerCarouselProductos {
+  height: 95vh;
+}
+
+#containerCarouselProductos ol {
+  margin-top: 3%;
+}
+
 /* FRANQUICIAS */
 .particle {
   position: absolute;
@@ -1199,8 +1217,9 @@ iframe {
 
 /* FOOTER */
 #infoFooter {
+  margin-top: 10%;
   font-size: 0.9rem;
-  text-align: center;
+  text-align: left;
   color: white;
   display: flex;
   flex-direction: column;
@@ -1210,7 +1229,7 @@ iframe {
 footer {
   box-shadow: 0px -3px 5px grey;
   background-color: #0a0a47;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 #contacto {
@@ -1285,41 +1304,6 @@ footer {
   width: 33%;
 }
 
-
-/*****************************/
-
-/**** PRODUCTOS ****/
-.swiper-container {
-  width: 100%;
-}
-
-.swiper-slide {
-  width: 100%;
-}
-
-div.swiper-button-prev {
-  top: 50%;
-  left: 2%;
-}
-
-div.swiper-button-next {
-  top: 50%;
-  right: 2%;
-}
-
-#paginacionProductos {
-  position: relative;
-}
-
-#paginacionProductos span {
-  margin: 1%;
-}
-
-#btnProductos {
-  display: none;
-}
-
-/**************************************/
 
 /*** AROMATIZACION ***/
 
@@ -1457,7 +1441,10 @@ div.swiper-button-next {
 
 /******** REDES *******/
 .redes {
+  padding: 0;
   list-style: none;
+  text-align: left;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1533,9 +1520,14 @@ ion-icon {
   }
 
   #infoFooter {
+    margin-top: 0%;
     color: white;
     font-size: 0.9rem;
     text-align: left;
+  }
+
+  footer {
+    padding: 3%;
   }
 
   /**** LOGO MAREA FOOTER DESKTOP *****/
@@ -1604,10 +1596,6 @@ ion-icon {
     font-size: 1rem;
   }
 
-  #btnProductos {
-    display: block;
-  }
-
   /***** Whatsapp Desk *****/
   #whatsapp {
     position: fixed;
@@ -1638,5 +1626,19 @@ ion-icon {
 
   div#portadas {
     padding-top: 10%;
+  }
+
+  .redes {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  #containerCarouselProductos {
+    padding-top: 3%;
+    height: 110vh;
+  }
+
+  #containerCarouselProductos ol {
+    margin-top: 6%;
   }
 }

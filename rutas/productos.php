@@ -13,7 +13,7 @@ require_once('header.php');
                     <h5 class="card-title">DISPENSER JABON LIQUIDO</h5>
                     <p class="card-text">Acero inoxidable o plástico</p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ require_once('header.php');
                     <h5 class="card-title">DISPENSER TOALLA</h5>
                     <p class="card-text">Toallas comunes o intercaladas </p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@ require_once('header.php');
                     <h5 class="card-title">DISPENSER TOALLA CON PALANCA</h5>
                     <p class="card-text">Manija de accionamiento lateral</p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@ require_once('header.php');
                     <h5 class="card-title">DISPENSER PAPEL HIGIENICO</h5>
                     <p class="card-text">Acero inoxidable o plástico</p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ require_once('header.php');
                     <h5 class="card-title">DISPENSER BOBINA 5kg</h5>
                     <p class="card-text"> De pie o pared</p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@ require_once('header.php');
                     <h5 class="card-title">INSUMOS</h5>
                     <p class="card-text">Papel, toallas, jabón</p>
 
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://wa.link/8z1xsz" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
         </div>

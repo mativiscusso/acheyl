@@ -200,6 +200,7 @@ div#portadas {
 #logoFranquicias {
   width: 50%;
 }
+
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -1175,13 +1176,11 @@ div#banner2 {
 
 .slider::before,
 .slider::after {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(white),
-    to(rgba(255, 255, 255, 0))
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(white),
+      to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 300px;
@@ -1229,6 +1228,12 @@ iframe {
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+#infoFooter span {
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -1280,7 +1285,7 @@ footer {
   opacity: 0;
 }
 
-.marea:hover > #right {
+.marea:hover>#right {
   display: flex;
   flex-direction: column;
   opacity: 1;
@@ -1303,7 +1308,7 @@ footer {
   height: 7vh;
 }
 
-.marea:hover > #left {
+.marea:hover>#left {
   left: 10px;
   width: 33%;
 }
@@ -1398,6 +1403,20 @@ footer {
   }
 }
 
+#logos img:first-child {
+  margin-right: 5%;
+  width: 20%;
+}
+
+#logos img:last-child {
+  width: 15%;
+}
+
+#banerAromatizacion {
+  background-color: #26d92c;
+  padding: 5%;
+}
+
 /***** Whatsapp *****/
 #whatsapp {
   position: fixed;
@@ -1443,20 +1462,26 @@ footer {
 /*********************************/
 
 /******** REDES *******/
-.redes {
+#redes {
   padding: 0;
   list-style: none;
   text-align: left;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+
   color: white;
 }
 
-.redes a {
+#redes a {
   color: white;
   text-decoration: none;
+}
+
+#redes span {
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
 }
 
 ion-icon {
@@ -1464,7 +1489,8 @@ ion-icon {
   color: white;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 980px) {
+
   /*MENU ESCRITORIO*/
   nav {
     background-color: transparent;
@@ -1476,6 +1502,11 @@ ion-icon {
 
   #logo {
     width: 100%;
+  }
+
+  ul.navbar-nav {
+    position: relative;
+    margin-left: auto;
   }
 
   /*FIN MENU*/
@@ -1539,7 +1570,7 @@ ion-icon {
     height: 15vh;
   }
 
-  .marea:hover > #left {
+  .marea:hover>#left {
     left: 10px;
     width: 30%;
   }
@@ -1625,7 +1656,7 @@ ion-icon {
     padding-top: 10%;
   }
 
-  .redes {
+  #redes {
     margin-top: 0;
     text-align: left;
   }
@@ -1638,7 +1669,16 @@ ion-icon {
   #containerCarouselProductos ol {
     margin-top: 6%;
   }
+
   #logoFranquicias {
     width: 25%;
+  }
+
+  #logos img:first-child {
+    width: 15%;
+  }
+
+  #logos img:last-child {
+    width: 10%;
   }
 }

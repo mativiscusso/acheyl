@@ -32,7 +32,7 @@ require_once('header.php');
         </ul>
         <span id="spanAroma">“CON UN ABONO MENSUAL, MANTENÉ TUS AMBIENTES AROMATIZADOS LAS 24 HORAS”</span><br>
         <a href="https://wa.me/5493415996988?texto=Hola!,%20me%20interesa%20" target="_blank">
-        <button id="btnAroma" type="button" class="btn btn-dark my-5">PROBALO SIN CARGO</button>
+            <button id="btnAroma" type="button" class="btn btn-dark my-5">PROBALO SIN CARGO</button>
         </a>
     </div>
 </div>
@@ -84,8 +84,41 @@ require_once('header.php');
         </div>
     </div>
     <a href="https://wa.me/5493415996988?texto=Hola!,%20me%20interesa%20" target="_blank">
-    <button type="button" class="btn btn-dark my-5"">QUIERO CONTRATAR</button>
+        <button type="button" class="btn btn-dark my-5"">QUIERO CONTRATAR</button>
     </a>
+</div>
+
+    <div data-aos="fade-up" id="banerAromatizacion" class="text-center">
+            <p>Estos productos garantizan la difusión automática de compuestos aromáticos para anular los malos olores
+                de ambientes enrarecidos en especial, con humo de cigarrillo. Ofrecemos perfumes ambientales con aromas
+                Naturales, ecológicas con notas frescas y acorde a sensación a limpio.
+                Reúnen tres propiedades necesarias en una misma aplicación:</p>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h3>DESODORIZANTE</h3>
+                        Anula en su faz primaria
+                        los malos olores.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>AROMATIZANTE</h3>
+                        Luego de la acción anterior para aromatizar.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>BACTERICIDA
+                        </h3>Neutraliza las bacterias y agentes que producen los malos olores procurando una
+                        desinfección de ambiente.
+                    </div>
+                </div>
+            </div>
+            <p class="my-5">Estas composiciones aromáticas son comprobadamente inofensivas, no tóxicas, no irritantes. El dispenser
+                es de material plástico , de forma circular, funciona a 220vt y consume sólo 2 wts.</p>
+            <div id="logos">
+                <img src="../img/certif1.png" alt="">
+                <img src="../img/certif2.png" alt="">
+            </div>
+    </div>
+
 </div>
 
 

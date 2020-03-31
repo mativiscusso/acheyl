@@ -19,42 +19,40 @@
                 </form>
             </div>
             <div id="infoFooter" class="col-12 col-md-3">
-                    <span>
-                        <ion-icon size="large" name="pin"></ion-icon>Presidente Roca 2921
-                    </span>
-                    <span>
-                        <ion-icon size="large" name="earth"></ion-icon>S2000 Rosario, Santa Fe
-                    </span>
-                    <span>
-                        <ion-icon size="large" name="call-sharp"></ion-icon>0810 444 0209 / 341 5 996988
-                    </span>
-                    <span>
-                        <ion-icon size="large" name="today-sharp"></ion-icon>Lunes a Viernes
-                    </span>
-                    <span>
-                        <ion-icon size="large" name="alarm"></ion-icon>08 hs a 17 hs
-                    </span>
+                <span>
+                    <ion-icon size="large" name="pin"></ion-icon>Presidente Roca 2921
+                </span>
+                <span>
+                    <ion-icon size="large" name="earth"></ion-icon>S2000 Rosario, Santa Fe
+                </span>
+                <span>
+                    <ion-icon size="large" name="call-sharp"></ion-icon>0810 444 0209 / 341 5 996988
+                </span>
+                <span>
+                    <ion-icon size="large" name="today-sharp"></ion-icon>Lunes a Viernes
+                </span>
+                <span>
+                    <ion-icon size="large" name="alarm"></ion-icon>08 hs a 17 hs
+                </span>
 
-                </div>
-                <div class="col-12 col-md-3">
-                    <ul class="redes">
-                        <li>
-                            <ion-icon size="large" name="logo-facebook"></ion-icon><a
-                                href="https://www.facebook.com/acheylrosario">/acheylrosario</a>
-                        </li>
-                        <li>
-                            <ion-icon size="large" name="logo-instagram"></ion-icon><a
-                                href="https://www.instagram.com/acheylrosario/?hl=es-la">@acheylrosario</a>
-                        </li>
-                        <li>
-                            <ion-icon size="large" name="mail-open"></ion-icon><a href="">contacto@acheyl.com.ar</a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-12 col-md-3" id="redes">
+                <span>
+                    <ion-icon size="large" name="logo-facebook"></ion-icon><a
+                        href="https://www.facebook.com/acheylrosario">/acheylrosario</a>
+                </span>
+                <span>
+                    <ion-icon size="large" name="logo-instagram"></ion-icon><a
+                        href="https://www.instagram.com/acheylrosario/?hl=es-la">@acheylrosario</a>
+                </span>
+                <span>
+                    <ion-icon size="large" name="mail-open"></ion-icon><a href="">contacto@acheyl.com.ar</a>
+                </span>
+            </div>
         </div>
-
     </div>
-    <a id="posicionador" href="https://somosmarea.com">
+
+    <a id="posicionador" href="https://somosmarea.com" target="_blank">
         <div class="marea">
             <img src="../img/logoMarea.png" alt="" id="left">
             <div id="right">
@@ -64,12 +62,25 @@
             </div>
         </div>
     </a>
+
     <button title="Back to top" class="scroll">
         <ion-icon size="large" name="arrow-up-outline"></ion-icon>
     </button>
+
 </footer>
+
 <script src="../js/navbar.js"></script>
 <script src="../js/top.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    const scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 500
+    });
+</script>
 </body>
 
 </html>

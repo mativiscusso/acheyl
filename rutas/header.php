@@ -46,7 +46,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav">
                 <li class="nav-item font-weight-bold ">
                     <a class="nav-link text-dark" href="/index#nosotros">QUIENES SOMOS</a>
                 </li>

@@ -33,7 +33,7 @@ require_once('header.php');
                 <img class="card-img-top" src="../img/productos/dispenser_toalla_ind.png" alt="Card image cap">
                 <div class="card-body" style="display:flex; flex-direction:column;height:30vh;justify-content: space-between">
                     <h5 class="card-title">DISPENSER TOALLA CON PALANCA</h5>
-                    <p class="card-text">Manija de accionamiento lateral</p>
+                    <p class="card-text">Accionamiento lateral</p>
 
                     <a href="https://wa.link/8z1xsz" class="btn btn-dark">COMPRAR</a>
                 </div>

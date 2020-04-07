@@ -2,9 +2,9 @@
 require_once('header.php');
 ?>
 
-<h2 class="text-center py-5">AROMATIZACION</h2>
+<h2 class="text-center py-5 animated bounce">AROMATIZACION</h2>
 <div class="row">
-    <div class="col-12 col-sm-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 animated fadeInLeft">
         <div id="carouselAroma" data-interval="4000" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -19,7 +19,7 @@ require_once('header.php');
             </div>
         </div>
     </div>
-    <div id="textoAroma" class="col-12 col-sm-12 col-md-6 px-3">
+    <div id="textoAroma" class="col-12 col-sm-12 col-md-6 px-3 animated fadeInRight">
         <p><i>"Ofreceles a tus clientes, una experiencia diferente"</i></p>
         <p>SERVICIO DE AROMATIZACIÓN DE AMBIENTES</p>
         <p>DESODORIZANTE - AROMATIZANTE - BACTERICIDA</p>
@@ -40,46 +40,73 @@ require_once('header.php');
 
 <div data-aos="flip-right" class="my-5" id="banner2">
     <p>AMPLIA VARIEDAD EN FRAGANCIAS</p>
-    <div class="slider">
-        <div class="slide-track">
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+    <div class="sliderFragancias">
+        <div class="slider-track">
+            <div class="slider">
+                <img src="../img/fragancias/bouquet.png" class="fraganciasSlide" alt="bouquet" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/chicle.png" class="fraganciasSlide" alt="cichle" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/coco.png" class="fraganciasSlide" alt="coco" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/coniglio.png" class="fraganciasSlide" alt="coniglio" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/frut-rojo.png" class="fraganciasSlide" alt="frutos rojos" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/frutilla.png" class="fraganciasSlide" alt="frutilla" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/lavanda.png" class="fraganciasSlide" alt="lavanda" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/limon.png" class="fraganciasSlide" alt="limon" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt=naranja"" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/uva.png" class="fraganciasSlide" alt="uva" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/vainilla.png" class="fraganciasSlide" alt="vainilla" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/bouquet.png" class="fraganciasSlide" alt="bouquet" />
             </div>
-            <div class="slide">
-                <img src="../img/fragancia.png" height="100" width="50" alt="" />
+            <div class="slider">
+                <img src="../img/fragancias/chicle.png" class="fraganciasSlide" alt="cichle" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/coco.png" class="fraganciasSlide" alt="coco" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/coniglio.png" class="fraganciasSlide" alt="coniglio" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/frut-rojo.png" class="fraganciasSlide" alt="frutos rojos" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/frutilla.png" class="fraganciasSlide" alt="frutilla" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/lavanda.png" class="fraganciasSlide" alt="lavanda" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/limon.png" class="fraganciasSlide" alt="limon" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt=naranja"" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/uva.png" class="fraganciasSlide" alt="uva" />
+            </div>
+            <div class="slider">
+                <img src="../img/fragancias/vainilla.png" class="fraganciasSlide" alt="vainilla" />
             </div>
         </div>
     </div>

@@ -129,7 +129,7 @@ a.navbar-brand {
 
 /* HEADER */
 header {
-  background-image: url("../img/fondo_header.jpg");
+  background-image: url("../img/fondo_header_m.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -1596,7 +1596,7 @@ ion-icon {
   /*FIN MENU*/
   header {
     background-image: url("../img/fondo_header.jpg");
-    height: 125vh;
+    height: 110vh;
   }
 
   #portada1 img {

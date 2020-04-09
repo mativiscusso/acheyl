@@ -2,21 +2,26 @@
     <div id="contacto">
         <div class="row">
             <div class="col-12 col-md-6">
-                <form method="POST" action="contacto.php">
-                    <div class="form-group">
-                        <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1"
-                            placeholder="Mensaje..." rows="3" required></textarea>
-                    </div>
-                    <button class="btn btn-outline-light" type="submit">Enviar</button>
-                </form>
+            <form method="POST" action="rutas/contacto.php">
+                        <div id="mail-status"></div>
+                        <div class="form-group">
+                            <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre"
+                                required>
+                            <label for="nombre"></label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                required>
+                            <label for="email"></label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Mensaje..." rows="3"
+                                required></textarea>
+                            <label for="mensaje"></label>
+                        </div>
+                        <button class="btn btn-outline-light" name="submit" type="submit"
+                            onClick="sendContact();">Enviar</button>
+                    </form>
             </div>
             <div id="infoFooter" class="col-12 col-md-3">
                 <span>
@@ -93,7 +98,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/8de40d40f6.js" crossorigin="anonymous"></script>
-    <link href="../css/style.min.css" rel="stylesheet" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
@@ -104,6 +109,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../js/mail.js"></script>
 </body>
 
 </html>

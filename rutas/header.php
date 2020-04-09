@@ -5,7 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <link href="../css/style.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149358789-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-149358789-1');
+</script>
     <title>Ache & L</title>
 </head>
 
@@ -27,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item font-weight-bold ">
-                    <a class="nav-link text-dark" href="/index2#nosotros">QUIENES SOMOS</a>
+                    <a class="nav-link text-dark" href="/index#nosotros">QUIENES SOMOS</a>
                 </li>
                 <li class="nav-item font-weight-bold ">
                     <a class="nav-link" href="aromatizacion">AROMATIZACION</a>
@@ -36,13 +46,13 @@
                     <a class="nav-link" href="productos">PRODUCTOS</a>
                 </li>
                 <li class="nav-item font-weight-bold ">
-                    <a class="nav-link" href="/index2#franquicia">FRANQUICIAS</a>
+                    <a class="nav-link" href="/index#franquicia">FRANQUICIAS</a>
                 </li>
                 <li class="nav-item font-weight-bold ">
                     <a class="nav-link" href="faqs">FAQs</a>
                 </li>
                 <li class="nav-item font-weight-bold">
-                    <a class="nav-link" href="/index2#contact">CONTACTO</a>
+                    <a class="nav-link" href="/index#contact">CONTACTO</a>
                 </li>
             </ul>
         </div>

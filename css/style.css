@@ -3,7 +3,10 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none!important;
+}
+a:hover {
+  text-decoration: none!important;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
@@ -177,7 +180,19 @@ div#portadas {
 }
 
 /* FIN HEADER */
+#bannerGratis {
+  height: 20vh;
+  background-color: #0a0a47;
+  color: white;
+  font-weight: bold;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#bannerGratis h3 {
+  font-size: 1.2rem;
+}
 /* PRODUCTOS */
 #carouselProducto {
   margin-left: 5%;
@@ -1388,6 +1403,9 @@ footer {
 .marea:hover>#left {
   left: 10px;
   width: 33%;
+}
+#bannerGratis h3{
+  font-size: 1.8rem;
 }
 
 /*** AROMATIZACION ***/

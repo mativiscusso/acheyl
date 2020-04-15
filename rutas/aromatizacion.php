@@ -38,7 +38,7 @@ require_once('header.php');
 </div>
 
 
-<div data-aos="flip-right" class="my-5" id="banner2">
+<div class="my-5" id="banner2">
     <p>AMPLIA VARIEDAD EN FRAGANCIAS</p>
     <div class="sliderFragancias">
         <div class="slider-track">
@@ -67,7 +67,7 @@ require_once('header.php');
                 <img src="../img/fragancias/limon.png" class="fraganciasSlide" alt="limon" />
             </div>
             <div class="slider">
-                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt=naranja"" />
+                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt="naranja" />
             </div>
             <div class="slider">
                 <img src="../img/fragancias/uva.png" class="fraganciasSlide" alt="uva" />
@@ -100,7 +100,7 @@ require_once('header.php');
                 <img src="../img/fragancias/limon.png" class="fraganciasSlide" alt="limon" />
             </div>
             <div class="slider">
-                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt=naranja"" />
+                <img src="../img/fragancias/naranja.png" class="fraganciasSlide" alt="naranja" />
             </div>
             <div class="slider">
                 <img src="../img/fragancias/uva.png" class="fraganciasSlide" alt="uva" />
@@ -111,11 +111,11 @@ require_once('header.php');
         </div>
     </div>
     <a href="https://wa.me/5493415996988?texto=Hola!,%20me%20interesa%20" target="_blank">
-        <button type="button" class="btn btn-dark my-5"">QUIERO CONTRATAR</button>
+        <button type="button" class="btn btn-dark my-5">QUIERO CONTRATAR</button>
     </a>
 </div>
 
-    <div data-aos="fade-up" id="banerAromatizacion" class="text-center">
+    <div id="banerAromatizacion" class="text-center">
             <p>Estos productos garantizan la difusión automática de compuestos aromáticos para anular los malos olores
                 de ambientes enrarecidos en especial, con humo de cigarrillo. Ofrecemos perfumes ambientales con aromas
                 Naturales, ecológicas con notas frescas y acorde a sensación a limpio.

@@ -16,6 +16,8 @@
  
   gtag('config', 'UA-149358789-1');
 </script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Ache & L</title>
 </head>
 
@@ -23,7 +25,7 @@
     <!-- navigation menu    -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="/"><img id="logo" src="../img/acheyl_logo2.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
                 <path class="line top"

@@ -3,10 +3,11 @@
 }
 
 a {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
+
 a:hover {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
@@ -187,13 +188,14 @@ div#portadas {
   color: white;
   font-weight: bold;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #bannerGratis h3 {
   font-size: 1rem;
 }
+
 /* PRODUCTOS */
 #carouselProducto {
   margin-left: 5%;
@@ -1405,7 +1407,8 @@ footer {
   left: 10px;
   width: 33%;
 }
-#bannerGratis h3{
+
+#bannerGratis h3 {
   font-size: 1.5rem;
 }
 
@@ -1541,8 +1544,8 @@ footer {
   display: flex;
   flex-direction: column;
   position: fixed;
-  bottom: 25px;
-  left: 10px;
+  bottom: 70px;
+  left: 25px;
   opacity: 0.3;
   background-color: #61d160;
   border-radius: 5px;

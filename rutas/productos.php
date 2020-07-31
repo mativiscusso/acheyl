@@ -176,7 +176,7 @@ require_once('header.php');
 
                     <h5 class="card-title">AROMATIZADOR ELÉCTRICO</h5>
 
-                    <p class="card-text">Insumo: Esencias para electro</p>
+                    <p class="card-text">Insumo: Esencias para eléctrico</p>
 
 
 
